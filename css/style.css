@@ -1,0 +1,209 @@
+/* Start Variables */
+/*=================*/
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --light-grey: hsl(0, 0%, 40%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+/* End Variables */
+
+/* Start Global Rules */
+/*====================*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: var(--off-black);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* End Global Rules */
+
+/* Start Responsive Centered Profile */
+/*===================================*/
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8.75rem 0;
+  /* 140px 0 */
+  /* Added padding to create vertical distance */
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 4rem 0;
+    /* 64px */
+    /* Smaller padding for smaller screens */
+  }
+}
+
+.profile {
+  background-color: var(--dark-grey);
+  color: var(--white);
+  width: 24.125rem;
+  /* 386px */
+  text-align: center;
+  border-radius: 0.625rem;
+  /* 10px */
+  padding: 2.5rem;
+  /* 40px */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .profile {
+    width: 20.3125rem;
+    /* 325px */
+    padding: 1.5rem;
+    /* 24px */
+  }
+}
+
+.profile .profile-image {
+  width: 5.625rem;
+  /* 90px */
+  height: 5.625rem;
+  /* 90px */
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  /* 24px */
+}
+
+.profile .profile-image img {
+  width: 100%;
+}
+
+.profile .profile-info h1 {
+  font-size: 1.5rem;
+  /* 24px */
+  margin-bottom: 0.75rem;
+  /* 12px */
+}
+
+@media (max-width: 600px) {
+  .profile .profile-info h1 {
+    font-size: 1.3125rem;
+    /* 21px */
+  }
+}
+
+.profile .profile-info .address {
+  font-size: 1rem;
+  /* 16px */
+  color: var(--green);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .profile .profile-info .address {
+    font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.profile .profile-info .address+p {
+  margin: 1.5rem auto 1.375rem;
+  /* 24px auto 22px*/
+}
+
+@media (max-width: 600px) {
+  .profile .profile-info .address+p {
+    font-size: 0.75rem;
+    /* 12px */
+  }
+}
+
+.profile .profile-info ul li:not(:last-child) {
+  margin-bottom: 0.75rem;
+  /* 12px */
+}
+
+.profile .profile-info ul li a {
+  display: block;
+  width: 100%;
+  padding: 0.875rem 0;
+  /* 14px 0 */
+  color: var(--white);
+  font-size: 1rem;
+  /* 16px */
+  font-weight: 700;
+  border-radius: 0.5rem;
+  /* 8px */
+  transition: 0.3s;
+}
+
+.profile .profile-info ul li a:link,
+.profile .profile-info ul li a:visited,
+.profile .profile-info ul li a:focus {
+  background-color: var(--grey);
+}
+
+.profile .profile-info ul li a:hover {
+  background-color: var(--light-grey);
+}
+
+.profile .profile-info ul li a:active {
+  background-color: var(--green);
+  color: var(--off-black);
+}
+
+@media (max-width: 600px) {
+  .profile .profile-info ul li a {
+    font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+/* End Responsive Centered Profile */
+
+
+/* Start Attribution */
+/*===================*/
+.attribution {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  font-size: 0.69rem;
+  /* 11px */
+  text-align: center;
+  padding: 0.31rem;
+  /* 5px */
+  color: var(--white);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 60%);
+  text-decoration: underline;
+}
+
+/* End Attribution */
