@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog Preview Card solution
+# Frontend Mentor - Social Links Profile solution
 
-This is a solution to the [Blog Preview Card Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social Links Profile Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -15,17 +15,17 @@ This is a solution to the [Blog Preview Card Challenge on Frontend Mentor](https
 
 ## Overview
 To get some details and background of this project visit the link below:
-[Frontend Mentor | Blog preview card coding challenge](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
+[Frontend Mentor | Social Links Profile coding challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
 
 ### Screenshot
 
-![Desktop Screenshot - Blog Preview Card](./Screenshot-Frontend Mentor Blog preview card-Desktop.png)
-![Mobile Screenshot - Blog Preview Card](./Screenshot-Frontend Mentor Blog preview card-Mobile.png)
+![Desktop Screenshot - Social Links Profile](./Screenshot-Frontend Mentor Social links profile-Desktop.png)
+![Mobile Screenshot - Social Links Profile](./Screenshot-Frontend Mentor Social links profile-Mobile.png)
 
 ### Links
 
-- [GitHub Repository](https://github.com/Mohammad-Moneer/Blog-Preview-Card)
-- [Live Demo](https://mohammad-moneer.github.io/Blog-Preview-Card/)
+- [GitHub Repository](https://github.com/Mohammad-Moneer/Social-Links-Profile)
+- [Live Demo](https://mohammad-moneer.github.io/Social-Links-Profile/)
 
 ## My process
 
@@ -42,6 +42,8 @@ To get some details and background of this project visit the link below:
 - Border radius
 - CSS Variables
 - Media query
+- Link states
+- Making transition effects on link hover
 
 ## Author
 
