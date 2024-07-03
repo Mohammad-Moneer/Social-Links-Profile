@@ -146,7 +146,7 @@ ul {
   /* 12px */
 }
 
-.profile .profile-info ul li a {
+.profile-link {
   display: block;
   width: 100%;
   padding: 0.875rem 0;
@@ -160,23 +160,23 @@ ul {
   transition: 0.3s;
 }
 
-.profile .profile-info ul li a:link,
-.profile .profile-info ul li a:visited,
-.profile .profile-info ul li a:focus {
+.profile-link:link,
+.profile-link:visited,
+.profile-link:focus {
   background-color: var(--grey);
 }
 
-.profile .profile-info ul li a:hover {
+.profile-link:hover {
   background-color: var(--light-grey);
 }
 
-.profile .profile-info ul li a:active {
+.profile-link:active {
   background-color: var(--green);
   color: var(--off-black);
 }
 
 @media (max-width: 600px) {
-  .profile .profile-info ul li a {
+  .profile-link {
     font-size: 0.875rem;
     /* 14px */
   }
