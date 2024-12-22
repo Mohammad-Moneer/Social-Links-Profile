@@ -19,8 +19,13 @@ To get some details and background of this project visit the link below:
 
 ### Screenshot
 
-![Desktop Screenshot - Social Links Profile](./Screenshot-Frontend Mentor Social links profile-Desktop.png)
-![Mobile Screenshot - Social Links Profile](./Screenshot-Frontend Mentor Social links profile-Mobile.png)
+Desktop version
+
+![Desktop Screenshot - Social Links Profile](./screenshot_social-links-profile_desktop.png)
+
+Mobile version
+
+![Mobile Screenshot - Social Links Profile](./screenshot_social-links-profile_mobile.png)
 
 ### Links
 
